@@ -20,6 +20,7 @@ namespace JwtAuthWebAPI
         public static IServiceCollection IOCRegisterServices(this IServiceCollection services)
         {
             services.AddSingleton<IEmployeeRepository, EmployeeRepository>();
+            services.AddSingleton<IUserService, UserService>();
             return services;
         }
     }
