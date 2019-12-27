@@ -24,7 +24,7 @@ namespace JwtAuthWebAPI.Controllers
         }
         [AllowAnonymous]
         [HttpPost]
-        public IActionResult CreateToken([FromBody]UserDto userDto)
+        public IActionResult CreateToken([FromBody]AuthenticateModel userDto)
         {
             IActionResult response = Unauthorized();
             var user = _userService.Authenticate(userDto.Username, userDto.Password);
