@@ -4495,6 +4495,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "JwtModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/JwtModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JwtModels.dll": {}
+        }
       }
     }
   },
@@ -12170,10 +12180,16 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "JwtModels/1.0.0": {
+      "type": "project",
+      "path": "../JwtModels/JwtModels.csproj",
+      "msbuildProject": "../JwtModels/JwtModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "JwtModels >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
@@ -12187,11 +12203,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Shyam WorkSpace\\Projects\\JwtAuthWebAPI\\JwtAuthWebAPI.csproj",
+      "projectUniqueName": "D:\\Shyam WorkSpace\\Projects\\JwtAuthWebAPI\\JwtAuthWebAPI\\JwtAuthWebAPI.csproj",
       "projectName": "JwtAuthWebAPI",
-      "projectPath": "D:\\Shyam WorkSpace\\Projects\\JwtAuthWebAPI\\JwtAuthWebAPI.csproj",
+      "projectPath": "D:\\Shyam WorkSpace\\Projects\\JwtAuthWebAPI\\JwtAuthWebAPI\\JwtAuthWebAPI.csproj",
       "packagesPath": "C:\\Users\\arunkumar\\.nuget\\packages\\",
-      "outputPath": "D:\\Shyam WorkSpace\\Projects\\JwtAuthWebAPI\\obj\\",
+      "outputPath": "D:\\Shyam WorkSpace\\Projects\\JwtAuthWebAPI\\JwtAuthWebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12207,7 +12223,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Shyam WorkSpace\\Projects\\JwtAuthWebAPI\\JwtModels\\JwtModels.csproj": {
+              "projectPath": "D:\\Shyam WorkSpace\\Projects\\JwtAuthWebAPI\\JwtModels\\JwtModels.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

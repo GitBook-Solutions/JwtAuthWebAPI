@@ -1,0 +1,9 @@
+D:\Shyam WorkSpace\Projects\JwtAuthWebAPI\JwtModels\bin\Debug\netstandard2.0\JwtModels.deps.json
+D:\Shyam WorkSpace\Projects\JwtAuthWebAPI\JwtModels\bin\Debug\netstandard2.0\JwtModels.dll
+D:\Shyam WorkSpace\Projects\JwtAuthWebAPI\JwtModels\bin\Debug\netstandard2.0\JwtModels.pdb
+D:\Shyam WorkSpace\Projects\JwtAuthWebAPI\JwtModels\obj\Debug\netstandard2.0\JwtModels.csprojAssemblyReference.cache
+D:\Shyam WorkSpace\Projects\JwtAuthWebAPI\JwtModels\obj\Debug\netstandard2.0\JwtModels.csproj.CoreCompileInputs.cache
+D:\Shyam WorkSpace\Projects\JwtAuthWebAPI\JwtModels\obj\Debug\netstandard2.0\JwtModels.AssemblyInfoInputs.cache
+D:\Shyam WorkSpace\Projects\JwtAuthWebAPI\JwtModels\obj\Debug\netstandard2.0\JwtModels.AssemblyInfo.cs
+D:\Shyam WorkSpace\Projects\JwtAuthWebAPI\JwtModels\obj\Debug\netstandard2.0\JwtModels.dll
+D:\Shyam WorkSpace\Projects\JwtAuthWebAPI\JwtModels\obj\Debug\netstandard2.0\JwtModels.pdb
